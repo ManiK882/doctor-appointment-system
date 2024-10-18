@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    height: 50px;
+   align-items: center;
+    background-color: #0180AB;
+   
+}
+.nav-bar .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.menu-bar{
+    display: flex;
+   /* background-color: aliceblue; */
+   position: absolute;
+   right: 0;
+   align-items: center;
+  }
+  .menu-bar a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .menu-bar a:hover{
+   color: gray;
+  }
+  .menu-bar .home{
+    font-size: 17px;
+    margin: 25px;
+  }
+ 
+  .menu-bar .search{
+    font-size: 17px;
+    margin: 25px;
+  }
+  .menu-bar .service{
+    font-size: 17px;
+    margin: 25px;
+  }
+  .menu-bar .about{
+    font-size: 17px;
+  margin: 25px;
+  }
+  .menu-bar .contact{
+  font-size:17px;
+  margin: 25px;
+  }
+  .nav-bar .menu-bar .Btn{
+ color: #0180AB;
+ font-size: 20px;
+ padding: 2px;
+ margin-right: 12px;
+ border: 2px solid white;
+ border-radius: 14px;
+  }
+  
+  .bar{
+    border: 2px solid  white;
+  }
+  /* after nav bar */
+  .middle-bar{
+    background-color: #cdeef8;
+    height: 400px;
+    display: flex;
+  }
+  .middle-bar .introduce{
+    position: absolute; 
+   height: 40px;
+   width: 300px;
+   left: 50px;
+   top: 200px;
+   
+  }
+  .middle-bar .msg{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .middle-bar .introduce .Btn2{
+    background-color: #0180AB;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+   border-radius: 1rem;
+   border: none;
+   font-size: 19px;
+  }
+
+  .middle-bar .img{
+    position: absolute;
+    right: 0;
+  }
+  /* second last bar*/
+  .steps{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+  }
+  .Second-last-bar{
+    display: flex;
+    justify-content: space-around;
+    
+    height: 150px;
+  }
+  .Second-last-bar .boxes{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+    width:400px ;
+    color: white;
+    background-color: #0180AB;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid white;
+  }
+  .zoom-out{
+    transition: transform 0.5s ease;
+   
+  }
+  .zoom-out:hover{
+    transform: scale(0.8);
+  }
+
+   .bar1{
+   border: 15px solid white;
+   }
+   .footer{
+    background-color:#cdeef8 ;
+    color:#064256 ;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+   }
+  .last{
+    text-align: center;
+    background-color: #cdeef8;
+    color:#064256;
+  }
